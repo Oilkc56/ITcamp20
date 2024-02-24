@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Micro+5&display=swap');
+
+body {
+    font-family: "Micro 5", sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  #game {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-size: larger;
+  }
+
+  #choices {
+    margin-top: 20px;
+  }
+  
+  .choice {
+    font-family: "Micro 5", sans-serif;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #17191b; 
+    color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .choice:hover {
+    background-color: #21ba69; 
+    transition-duration: 0.5s;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  #score {
+    font-size: 30px;
+  }
